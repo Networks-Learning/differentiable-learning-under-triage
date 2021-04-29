@@ -23,6 +23,7 @@ This code depends on the following packages:
  - `Hatespeech` contains the data and code for regenerating the experiments on [Hatespeech](https://github.com/t-davidson/hate-speech-and-offensive-language) dataset.
  - `Galaxy-zoo` contains the data and code for regenerating the experiments on [Galaxy-zoo](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge) dataset.
  - `Synthetic` contains the code for regenerating the experiments on [Synthetic](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge) dataset.
+ 
 Please refer to section 5 and 6 of [our paper](https://arxiv.org/pdf/2103.08902.pdf) for detailed discussion on experiments.
 
 
