@@ -1,5 +1,5 @@
-## Execution
+## Code structure
 
-Please refer to `train.ipynb` for implementation of our method as well as all the baselines. All the figures shown in our paper are generated inside the notebook.
-
-The `process_text_data.py` loads the `labeled_data.csv` file which contains the hatespeech tweets and generates the `hatespeech_data.pkl`. If you want to generate the data use the following command:  `python3 generate_text_data.py`
+ - `train.ipynb` Trains our method and the baselines and generates all the figures illustrated in the paper.
+ - `process_text_data.py` Loads the hatespeech tweets from `labeled_data.csv` and extracts 100 dimensional features using `fasttext` and saves human predictive model based on the human annotations. Please refer to section 6 of our paper for more details. If you want to generate the data use the following command:  `python3 generate_text_data.py`
+ - `/models` Contains the trained model of our method and the baselines.

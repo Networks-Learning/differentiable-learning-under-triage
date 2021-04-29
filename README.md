@@ -11,10 +11,12 @@ The paper is available [here](https://arxiv.org/pdf/2103.08902.pdf).
 
 This code depends on the following packages:
 
- 1. `numpy`
+ 1. `jupyterlab`
  2. `Torch`
- 3. `matplotlib`
- 4. `fasttext`
+ 3. `torchvision`
+ 4. `torchtext`
+ 5. `matplotlib`
+ 6. `fasttext`
  
 
 
@@ -34,6 +36,7 @@ The details for executing are mentioned inside each folder. Each folder contains
 ## Citation
 Please cite us if you use our work in your research:
 
+```
 @misc{okati2021differentiable,
       title={Differentiable Learning Under Triage}, 
       author={Nastaran Okati and Abir De and Manuel Gomez-Rodriguez},
@@ -42,4 +45,5 @@ Please cite us if you use our work in your research:
       archivePrefix={arXiv},
       primaryClass={stat.ML}
 }
+```
 
