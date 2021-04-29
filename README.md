@@ -13,10 +13,9 @@ This code depends on the following packages:
 
  1. `jupyterlab`
  2. `Torch`
- 3. `torchvision`
- 4. `torchtext`
- 5. `matplotlib`
- 6. `fasttext`
+ 3. `fasttext`
+ 4. `matplotlib`
+ 5. `numpy`
  
 
 
