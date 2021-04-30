@@ -2,11 +2,24 @@ import numpy.random as rand
 import codecs
 import csv
 import random
-from utils import *
 import numpy as np
 import numpy.linalg as LA
 import fasttext
 import copy
+import pickle5 as pickle
+import os
+import torch
+
+
+def load_data(file_name):
+    assert(os.path.exists(file_name+'.pkl'))
+    with open(file_name + '.pkl', 'rb') as f:
+        data = pickle.load(f)
+    return data
+
+def save_data(data, file_path):
+    with open(file_path + '.pkl','wb') as f:
+        pickle.dump(data,f,pickle.HIGHEST_PROTOCOL)  
 
 class preprocess_triage_real_data:
     def __init__(self):
