@@ -4,7 +4,7 @@ This is a repository containing code and data for the paper:
 
 > N. Okati, A. De, and M. Gomez-Rodriguez. _Differentiable Learning Under Triage_
 
-The paper is available [here](https://arxiv.org/pdf/2103.08902.pdf).
+The paper is available [here](https://arxiv.org/pdf/2103.08902.pdf). The repository is currently under development.
 
 
 ## Pre-requisites
