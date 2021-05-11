@@ -4,7 +4,7 @@ This is a repository containing code and data for the paper:
 
 > N. Okati, A. De, and M. Gomez-Rodriguez. _Differentiable Learning Under Triage_
 
-The paper is available [here](https://arxiv.org/pdf/2103.08902.pdf).
+The paper is available [here](https://arxiv.org/pdf/2103.08902.pdf). The repository is currently under development.
 
 
 ## Pre-requisites
@@ -23,7 +23,7 @@ This code depends on the following packages:
 
  - `Hatespeech` contains the data and code for regenerating the experiments on [Hatespeech](https://github.com/t-davidson/hate-speech-and-offensive-language) dataset.
  - `Galaxy-zoo` contains the data and code for regenerating the experiments on [Galaxy-zoo](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge) dataset.
- - `Synthetic` contains the code for regenerating the experiments on [Synthetic](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge) dataset.
+ - `Synthetic` contains the code for regenerating the experiments on Synthetic dataset.
  
 Please refer to section 5 and 6 of [our paper](https://arxiv.org/pdf/2103.08902.pdf) for detailed discussion on experiments.
 
