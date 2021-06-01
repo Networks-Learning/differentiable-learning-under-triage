@@ -1,9 +1,18 @@
 import pickle
 import sys
+import numpy as np
+import torch
+import os
 
 def save_data(data, file_path):
     with open(file_path + '.pkl','wb') as f:
         pickle.dump(data,f,pickle.HIGHEST_PROTOCOL)
+        
+def load_data(file_name):
+    assert(os.path.exists(file_name+'.pkl'))
+    with open(file_name + '.pkl', 'rb') as f:
+        data = pickle.load(f)
+    return data
 
 def gauss(x, mu, std, coef,ycoef, offset,xoffset):
     denom = np.sqrt(2 * np.pi) * std
