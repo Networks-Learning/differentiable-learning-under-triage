@@ -10,6 +10,10 @@ import pickle5 as pickle
 import os
 import torch
 
+'''
+The data can be downloaded from https://github.com/t-davidson/hate-speech-and-offensive-language. put the labeled_data.csv in this directory and run this script using python3 process_text_data.py
+'''
+
 
 def load_data(file_name):
     assert(os.path.exists(file_name+'.pkl'))
