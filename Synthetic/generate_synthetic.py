@@ -85,7 +85,7 @@ if __name__ == '__main__':
     data = {'clusters': np.array([dict.fromkeys(['x','y','hnoise','test']) for i in range(num_clusters)]),
             'mnet':None}
     x = generate_X(-3, 3, num_clusters*num_samples_per_cluster, dim)
-    noise = [0.01,0.02,0.04,0.08]
+    noise = [0.01,0.01,0.04,0.06]
 
     for i,id in enumerate([2,0,3,1]):
         x_cluster = x[i*num_samples_per_cluster:(i+1)*num_samples_per_cluster]
@@ -108,6 +108,7 @@ if __name__ == '__main__':
         data['clusters'][id]['test']['x'] = x_test
         data['clusters'][id]['test']['y'] = y_test
         data['clusters'][id]['hnoise'] = torch.normal(0.0,float((int(1)+1)*noise[id]),(x_train.shape[0],1))
+        print(i,torch.mean(data['clusters'][id]['hnoise']))
         data['clusters'][id]['test']['hnoise'] = torch.normal(0.0,float((int(1)+1)*noise[id]),(x_test.shape[0],1))
 
 
