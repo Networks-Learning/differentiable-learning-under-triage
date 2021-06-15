@@ -1,4 +1,4 @@
-# differentiable-learning-under-triage
+# Differentiable Learning Under Triage
 
 This is a repository containing code and data for the paper:
 
