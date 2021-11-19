@@ -36,13 +36,11 @@ The details for executing are mentioned inside each folder. Each folder contains
 Please cite us if you use our work in your research:
 
 ```
-@misc{okati2021differentiable,
+@inproceedings{okati2021differentiable,
       title={Differentiable Learning Under Triage}, 
       author={Nastaran Okati and Abir De and Manuel Gomez-Rodriguez},
-      year={2021},
-      eprint={2103.08902},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML}
+      booktitle={Advances in Neural Information Processing Systems},
+      year={2021}
 }
 ```
 
