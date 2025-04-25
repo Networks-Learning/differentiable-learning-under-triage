@@ -4,7 +4,7 @@ This is a repository containing code and data for the paper:
 
 > N. Okati, A. De, and M. Gomez-Rodriguez. _Differentiable Learning Under Triage_. Advances in Neural Information Processing Systems (NeurIPS), 2021.
 
-The paper is available [here](https://arxiv.org/pdf/2103.08902.pdf).
+The paper is published in NeurIPS'21 and can be found [here](https://proceedings.neurips.cc/paper/2021/file/4c4c937b67cc8d785cea1e42ccea185c-Paper.pdf).
 
 
 ## Pre-requisites
